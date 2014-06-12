@@ -514,7 +514,7 @@ public class CreateAllTheThingsPortlet extends MVCPortlet {
 					content.append("<root available-locales=\"en_US\" default-locale=\"en_US\">");
 					content.append("<static-content language-id=\"en_US\">");
 					content.append("<![CDATA[");
-					content.append(title.toString());
+					content.append(baseArticle);
 					content.append("]]>");
 					content.append("</static-content></root>");
 
